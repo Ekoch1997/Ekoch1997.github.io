@@ -1,0 +1,142 @@
+.account__container {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    gap:15%;
+}
+
+.account__me {
+    width:100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(
+        45deg,
+        transparent,
+        var(--color-primary)
+        transparent);
+    display:grid;
+    place-items: center;
+}
+
+.account__me-image {
+    border-radius: 2rem;
+    overflow:hidden;
+    transform: rotate(10deg);
+    transition: var(--transition);
+}
+
+.account__me-image:hover {
+    transform: rotate(0deg);
+}
+
+.account__cards {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:1.5rem;
+
+}
+
+.account__card {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.account__card:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.account__card-icon {
+    color: var(--color-primary);
+    font-size: 4rem;
+    margin-bottom: 0rem;
+}
+
+.account__card h5 {
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+
+.account__card small {
+    font-size: 0.7rem;
+    color: var(--color-light);
+}
+
+
+
+.account__content p {
+    margin: 2rem 0 2.6rem;
+}
+
+
+.account__items {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    transition: var(--transition);
+    display: grid;
+}
+.salesforce,
+.cssbattle,
+.leetcode,
+.tableau {
+    grid-template-columns: repeat(3,1fr);
+}
+
+.freecodecamp,
+.pluralsight {
+    grid-template-columns: repeat(2,1fr);
+}
+
+.tableau {
+    grid-template-columns: 1fr;
+}
+
+.account__item h5 {
+    margin-bottom: 0rem;
+}
+
+
+/* =============== MEDIA QUERIES (MEDIUM DEVICES) ================== */
+@media screen and (max-width:1024px) {
+    .account__container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .account__me {
+        width:50%;
+        margin: 2rem auto 4rem;
+    }
+
+    .abount__content p {
+        margin: 1rem 0 1.5rem;
+    }
+}
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) ================== */
+@media screen and (max-width:600px) {
+    .account__me {
+        width:65%;
+        margin: 0 auto 3rem;
+    }
+
+    .account__cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .account__content {
+        text-align:center;
+    }
+
+    .account__content p {
+        margin: 1.5rem 0;
+    }
+}
