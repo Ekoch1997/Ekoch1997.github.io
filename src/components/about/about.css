@@ -1,8 +1,8 @@
-.about__container {
+/*.about__container {
     display: grid;
     grid-template-columns: 35% 50%;
     gap:15%;
-}
+}*/
 
 .about__me {
     width:100%;
@@ -30,7 +30,7 @@
 
 .about__cards {
     display:grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 3fr;
     gap:1.5rem;
 
 }
@@ -67,6 +67,19 @@
 
 .about__content p {
     margin: 2rem 0 2.6rem;
+}
+
+.about__summary-icon {
+    margin-top: 6px;
+    color: var(--color-primary);
+    
+}
+
+.about__summary-details {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    gap: 1rem;
+    text-align: left;
 }
 
 

@@ -6,12 +6,12 @@ const Footer = () => {
     <footer>
       <ul className='permalinks'>
         <li><a href='#'>Home</a></li>
-        <li><a href='#'>About</a></li>
-        <li><a href='#'>Experience</a></li>
-        <li><a href='#'>Services</a></li>
-        <li><a href='#'>Portfolio</a></li>
-        <li><a href='#'>Testimonials</a></li>
-        <li><a href='#'>Contact</a></li>
+        <li><a href='#about'>About</a></li>
+        <li><a href='#experience'>Experience</a></li>
+        <li><a href='#accounts'>Progress</a></li>
+        <li><a href='#portfolio'>Portfolio</a></li>
+        <li><a href='#testimonials'>Testimonials</a></li>
+        <li><a href='#contact'>Contact</a></li>
       </ul>
 
       <div className="footer__copyright">

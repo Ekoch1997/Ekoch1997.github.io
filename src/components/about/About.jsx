@@ -1,9 +1,8 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
 import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
-import {BsFolderCheck} from 'react-icons/bs'
+import {BsFillPatchCheckFill} from 'react-icons/bs'
+
 
 const About = () => {
   return (
@@ -25,20 +24,25 @@ const About = () => {
               <h5>Experience</h5>
               <small>2+ Years Working</small>
             </article>
-            <article className='about__card'>
-              <FiUsers className='about__card-icon' />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
-            </article>
-            <article className='about__card'>
-              <BsFolderCheck className='about__card-icon' />
-              <h5>Projects</h5>
-              <small>80+ Completed Projects</small>
+            <article className='about__card about__card-summary'>
+            
+              <article className='about__summary-details'>
+                <BsFillPatchCheckFill className='about__summary-icon' />
+                <div>
+                  <h4>Analytical thinker with a strong work ethic dedicated to continual learning</h4></div>
+              </article>
+              <article className='about__summary-details'>
+                <BsFillPatchCheckFill className='about__summary-icon' />
+                <div>
+                  <h4>Strong communicator with team-oriented mindset</h4></div>
+              </article>
+              <article className='about__summary-details'>
+                <BsFillPatchCheckFill className='about__summary-icon' />
+                <div>
+                  <h4>Demonstrated leader involved on campus and within the community</h4></div>
+              </article>
             </article>
           </div>
-          <p>
-          Analytical thinker with a strong work ethic dedicated to continual learning
-          </p>
 
           {/*<a href="#contact" className='btn btn-primary'>Let's Talk</a>*/}
         </div>
