@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.7f9aee51.css",
-    "main.js": "/static/js/main.fd584381.js",
+    "main.js": "/static/js/main.a536c77e.js",
     "static/media/profile_pic.png": "/static/media/profile_pic.d6ae554bf6ecf1658bd3.png",
     "static/media/Conways-Game-of-Life.jpg": "/static/media/Conways-Game-of-Life.60feed66aeaa0edbe1b6.jpg",
-    "static/media/CV.pdf": "/static/media/CV.dde2ddc3dde701fd3c08.pdf",
+    "static/media/resume.pdf": "/static/media/resume.aba4ea9193edfde59975.pdf",
     "static/media/portfolio1.jpeg": "/static/media/portfolio1.81e5993a6d422c5542a1.jpeg",
     "static/media/Minesweeper.jpg": "/static/media/Minesweeper.66867463c33c795e9ec0.jpg",
     "index.html": "/index.html",
     "main.7f9aee51.css.map": "/static/css/main.7f9aee51.css.map",
-    "main.fd584381.js.map": "/static/js/main.fd584381.js.map"
+    "main.a536c77e.js.map": "/static/js/main.a536c77e.js.map"
   },
   "entrypoints": [
     "static/css/main.7f9aee51.css",
-    "static/js/main.fd584381.js"
+    "static/js/main.a536c77e.js"
   ]
 }
