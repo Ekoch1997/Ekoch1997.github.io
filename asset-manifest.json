@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.72f6a1e6.css",
-    "main.js": "/static/js/main.108ea488.js",
+    "main.js": "/static/js/main.9c0d40b7.js",
     "static/media/profile_pic.png": "/static/media/profile_pic.d6ae554bf6ecf1658bd3.png",
     "static/media/resume.pdf": "/static/media/resume.7d67d531466fae47f0fc.pdf",
     "static/media/Conways-Game-of-Life.jpg": "/static/media/Conways-Game-of-Life.60feed66aeaa0edbe1b6.jpg",
@@ -12,10 +12,10 @@
     "static/media/Minesweeper.jpg": "/static/media/Minesweeper.66867463c33c795e9ec0.jpg",
     "index.html": "/index.html",
     "main.72f6a1e6.css.map": "/static/css/main.72f6a1e6.css.map",
-    "main.108ea488.js.map": "/static/js/main.108ea488.js.map"
+    "main.9c0d40b7.js.map": "/static/js/main.9c0d40b7.js.map"
   },
   "entrypoints": [
     "static/css/main.72f6a1e6.css",
-    "static/js/main.108ea488.js"
+    "static/js/main.9c0d40b7.js"
   ]
 }
